@@ -11,7 +11,7 @@ int main(){
         long long res = 0;
         for (int i=1; i<=n; i++){
             res += (long long) ((n-i)*n)*n;
-            res += (long long) ((n-1)*(n))/2;
+            res += (long long) ((n-1)*(n))/2; 
 
             if (n-i > 1){
                 if (n-2 > 0){
